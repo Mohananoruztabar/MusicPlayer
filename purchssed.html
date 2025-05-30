@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet/global.css">
+    <link rel="stylesheet" href="stylesheet/master.css">
+    <link rel="stylesheet" href="assets/icon/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+    
+</head>
+<body>
+    <div class="loader">
+        <img src="assets/img/loader.gif" alt="">
+    </div>
+    <header class="artist stations">
+        <aside>
+            <div class="logo">
+                <img src="assets/img/mini_logo.png" alt="" class="small-screen-logo">
+                <img src="assets/img/logo.png" alt="">
+            </div>
+            <div class="small-logo">
+                <img src="assets/img/mini_logo.png" alt="">
+            </div>
+            <div class="music-menu">
+                <h3>brower Music</h3>
+                <ul class="artist-menu Purchased-menu">
+                    <li><a href="index.html">
+                        <span class="icon-discover icon"></span>
+                        <p>Discover</p>
+                    </a></li>
+                    <li><a href="artists.html">
+                        <span class="icon-artists icon"></span>
+                        <p>Artists</p>
+                    </a></li>
+                    <li><a href="albums.html">
+                        <span class="icon-albums icon"></span>
+                        <p>Albums</p>
+                    </a></li>
+                    <li><a href="stations.html">
+                        <span class="icon-stations icon"></span>
+                        <p>Stations</p>
+                    </a></li>
+                    <li><a href="#" >
+                        <span class="icon-music icon"></span>
+                        <p>Music</p>
+                    </a></li>
+                </ul>
+                <h3>Your Music</h3>
+                <ul class="purchssed-menu">
+                    <li><a href="downloads.html">
+                        <span class="icon-downloads icon"></span>
+                        <p>Downloads</p>
+                    </a></li>
+                    <li><a href="purchssed.html" class="active">
+                        <span class="icon-purchased icon"></span>
+                        <p>Purchased</p>
+                    </a></li>
+                    <li><a href="favourites.html">
+                        <span class="icon-favourites icon"></span>
+                        <p>Favourites</p>
+                    </a></li>
+                    <li><a href="#">
+                        <span class="icon-history icon"></span>
+                        <p>History</p>
+                    </a></li>
+                </ul>
+            </div>
+            <span class="sidebar-btn">
+                <i class="ri-arrow-left-s-line"></i>
+            </span>
+        </aside>
+        <div class="hero-container">
+            <div class="hero-top">
+                <div class="hero-top-col">
+                    <div class="search-box">
+                        <input type="text" placeholder="search for Artists , playlists , and more">
+                        <i class="ri-search-2-line"></i>
+                    </div>
+                    <span class="notification-icon"></span>
+                </div>
+                <div class="user-info">
+                    <div class="user-img">
+                        <img src="assets/img/pppp.jpg" alt="">
+                    </div>
+                    <div class="user-login-wrapper">
+                        <h2>Hello, Friends <i class="ri-arrow-down-fill"></i></h2>
+                        <ul class="user-wrapper-dropdown">
+                            <li>
+                                <a href="">
+                                    <span class="icon icon-profile"></span>
+                                    <p>Profile</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span class="icon icon-logout"></span>
+                                    <p>Logout</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bars">
+                        <i class="ri-menu-2-fill"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="download-container">
+                <div class="download-title">
+                    <h2>Purchased Tracks</h2>
+                </div>
+                <div class="download-wrapper">
+                    <ul class="download-col-top">
+                        <li>#</li>
+                        <li>Song Title</li>
+                        <li>Album</li>
+                        <li>Durations</li>
+                        <li>Add To Favourites</li>
+                        <li>More</li>
+                        <li>Remove</li>
+                    </ul>
+                    <ul class="download-col active-download download-col-box">
+                        <li><img src="assets/img/sound_bars.svg" alt=""></li>
+                        <li>Pol Atefeh</li>
+                        <li>Mosafer</li>
+                        <li>04:02</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>02 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Qam Tanhaei</li>
+                        <li>Mosafer</li>
+                        <li>04:09</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>03 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Gol Yas</li>
+                        <li>Mosafer</li>
+                        <li>05:14</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>04 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Mosafer</li>
+                        <li>Mosafer</li>
+                        <li>05:13</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>05 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Rohsabz</li>
+                        <li>Mosafer</li>
+                        <li>04:16</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>06 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Jadeh</li>
+                        <li>Mosafer</li>
+                        <li>02:45</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>07 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>Arezoha</li>
+                        <li>Mosafer</li>
+                        <li>05:34</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                    <ul class="download-col">
+                        <li>08 <img src="assets/img/play_songlist.svg" alt="" class="play-download-btn"></li>
+                        <li>BiTabi</li>
+                        <li>Mosafer</li>
+                        <li>03:31</li>
+                        <li><i class="ri-heart-2-line"></i></li>
+                        <li>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="fav-option-icon icon"></span>
+                                        <h3>Favourites</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="download-option-icon icon"></span>
+                                        <h3>Downloads Now</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="add-pl-option-icon icon"></span>
+                                        <h3>Add To PlayList</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="share-option-icon icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                        </li>
+                        <li><i class="ri-close-lin close-download"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-container">
+            <span class="bottom-container-btn">
+                <i class="ri-arrow-left-s-line"></i>
+            </span>
+            <div class="music-box">
+                <div class="music-box-img">
+                    <img src="assets/img/song1.jpg" alt="">
+                </div>
+                <div class="music-box-text">
+                    <h2>Dont Let me</h2>
+                    <p>Mushroom Record</p>
+                </div>
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="music-play-wrapper">
+                <div class="music-play-option">
+                    <button class="music-option-prev">
+                        <span class="icon play-option play-prev"></span>
+                    </button>
+                    <button class="play-button">
+                        <span class="icon play-pause"></span>
+                    </button>
+                    <button class="music-option-next">
+                        <span class="icon play-option play-next"></span>
+                    </button>
+                </div>
+                <div class="music-play-box">
+                    <div class="music-play-col">
+                        <div class="music-play-line"></div>
+                        <div class="music-timeline">
+                            <p>00:00</p>
+                            <p>04:27</p>
+                        </div>
+                    </div>
+                    <div class="music-val-option">
+                        <div class="music-volume">
+                            <img src="assets/img/volume.svg" alt="">
+                        </div>
+                        <button class="music-mode shuffle-mode">
+                            <span class="shuffle-icon"></span>
+                        </button>
+                        <button class="music-mode repeat-mode">
+                            <span class="repeat-icon"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="music-bottom-btn">
+                <button><i class="ri-arrow-up-s-fill"></i>Queue</button>
+            </div>
+            <div class="queue-dropdown-box">
+                <div class="sidebar-btn queue-btn">
+                    <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <h1>QUEUE</h1>
+                <div class="queue-wrapper">
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song1.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>Dont Let me</h2>
+                            <p>by Mushroom Record</p>
+                        </div>
+                    </div>
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song2.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>Your Face</h2>
+                            <p>by Ministry</p>
+                        </div>
+                    </div>
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song3.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>Cyber Sonnet</h2>
+                            <p>by You An I</p>
+                        </div>
+                    </div>
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song4.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>Califonia</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song5.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>Colorado</h2>
+                            <p>by Bad Religion</p>
+                        </div>
+                    </div>
+                    <div class="queue-col">
+                        <div class="queue-img">
+                            <img src="assets/img/song2.jpg" alt="">
+                        </div>
+                        <div class="queue-text">
+                            <h2>India</h2>
+                            <p>by Ministry</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="queue-btns">
+                    <button>Save playlist</button>
+                    <a href="#">Clear</a>
+                </div>
+            </div>
+        </div>
+        <figure class="myfoot">
+        <a href="https://github.com/Mohananoruztabar"><i class="ri-github-fill"></i></a>
+        <a href="https://www.instagram.com/mohananoruztabar_web?igsh=MW00ZjVxanA3Z3N2Zg%3D%3D&utm_source=qr"><i class="ri-instagram-line"></i></a>
+        <a href="https://www.linkedin.com/in/mohana-noruztabar-2477b2349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="ri-linkedin-fill"></i></a>
+        <a href="mohananoruztabar@gmail.com"><i class="ri-mail-line"></i></a>
+        <img src="assets/img/my photo.jpg" alt="">
+        <figcaption>Mohana Noruztabar</figcaption>
+    </figure>
+    </header>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="assets/js/main.js"></script>
+</html>
